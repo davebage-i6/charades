@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E447D48227689CAE0052FD9E /* CheradeStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = E447D48127689CAE0052FD9E /* CheradeStrings.strings */; };
+		E447D48427689E080052FD9E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D48327689E080052FD9E /* Strings.swift */; };
+		E447D4862768A01C0052FD9E /* LocalisationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D4852768A01C0052FD9E /* LocalisationHelper.swift */; };
+		E447D4882768A0770052FD9E /* CheradeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D4872768A0770052FD9E /* CheradeBundle.swift */; };
+		E447D48B2768A9D20052FD9E /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D48A2768A9D20052FD9E /* TeamsView.swift */; };
+		E447D48D2768ABE50052FD9E /* StartStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D48C2768ABE50052FD9E /* StartStopButton.swift */; };
+		E447D48F2768ADA40052FD9E /* NextTeamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D48E2768ADA40052FD9E /* NextTeamButton.swift */; };
+		E447D4912768B86D0052FD9E /* SuggestionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447D4902768B86D0052FD9E /* SuggestionsButton.swift */; };
+		E45340BF27705CA500CE2E34 /* FiraSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340AC27705CA500CE2E34 /* FiraSans-Thin.ttf */; };
+		E45340C027705CA500CE2E34 /* FiraSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340AD27705CA500CE2E34 /* FiraSans-ExtraLightItalic.ttf */; };
+		E45340C127705CA500CE2E34 /* FiraSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340AE27705CA500CE2E34 /* FiraSans-LightItalic.ttf */; };
+		E45340C227705CA500CE2E34 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340AF27705CA500CE2E34 /* FiraSans-Medium.ttf */; };
+		E45340C327705CA500CE2E34 /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B027705CA500CE2E34 /* FiraSans-BoldItalic.ttf */; };
+		E45340C427705CA500CE2E34 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B127705CA500CE2E34 /* FiraSans-Bold.ttf */; };
+		E45340C527705CA500CE2E34 /* FiraSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B227705CA500CE2E34 /* FiraSans-ExtraLight.ttf */; };
+		E45340C627705CA500CE2E34 /* FiraSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B327705CA500CE2E34 /* FiraSans-ThinItalic.ttf */; };
+		E45340C727705CA500CE2E34 /* FiraSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B427705CA500CE2E34 /* FiraSans-MediumItalic.ttf */; };
+		E45340C827705CA500CE2E34 /* FiraSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B527705CA500CE2E34 /* FiraSans-BlackItalic.ttf */; };
+		E45340C927705CA500CE2E34 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B627705CA500CE2E34 /* FiraSans-Light.ttf */; };
+		E45340CA27705CA500CE2E34 /* FiraSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B727705CA500CE2E34 /* FiraSans-Black.ttf */; };
+		E45340CB27705CA500CE2E34 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E45340B827705CA500CE2E34 /* OFL.txt */; };
+		E45340CC27705CA500CE2E34 /* FiraSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340B927705CA500CE2E34 /* FiraSans-ExtraBold.ttf */; };
+		E45340CD27705CA500CE2E34 /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340BA27705CA500CE2E34 /* FiraSans-SemiBold.ttf */; };
+		E45340CE27705CA500CE2E34 /* FiraSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340BB27705CA500CE2E34 /* FiraSans-SemiBoldItalic.ttf */; };
+		E45340CF27705CA500CE2E34 /* FiraSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340BC27705CA500CE2E34 /* FiraSans-ExtraBoldItalic.ttf */; };
+		E45340D027705CA500CE2E34 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340BD27705CA500CE2E34 /* FiraSans-Regular.ttf */; };
+		E45340D127705CA500CE2E34 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45340BE27705CA500CE2E34 /* FiraSans-Italic.ttf */; };
+		E461755527466DCE00DEE0D5 /* CheradesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461755427466DCE00DEE0D5 /* CheradesApp.swift */; };
+		E461755727466DCE00DEE0D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461755627466DCE00DEE0D5 /* ContentView.swift */; };
+		E461755927466DD200DEE0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E461755827466DD200DEE0D5 /* Assets.xcassets */; };
+		E461755C27466DD200DEE0D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E461755B27466DD200DEE0D5 /* Preview Assets.xcassets */; };
+		E461756327466E4800DEE0D5 /* TeamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461756227466E4800DEE0D5 /* TeamCard.swift */; };
+		E461AD89275F7C94002937DD /* SelectionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461AD88275F7C94002937DD /* SelectionText.swift */; };
+		E461AD8C275F9BFC002937DD /* GameInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461AD8B275F9BFC002937DD /* GameInterface.swift */; };
+		E461AD8E275FA8C2002937DD /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461AD8D275FA8C2002937DD /* RingView.swift */; };
+		E461AD90275FAE65002937DD /* RingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461AD8F275FAE65002937DD /* RingViewModel.swift */; };
+		E472425F27642FD40084863C /* Suggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E472425E27642FD40084863C /* Suggestions.swift */; };
+		E4C7A5E327527B6D00F413DA /* TeamPhotoPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5E227527B6D00F413DA /* TeamPhotoPlaceHolder.swift */; };
+		E4C7A5E52752DDF900F413DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5E42752DDF900F413DA /* ImagePicker.swift */; };
+		E4C7A5E82752EDDE00F413DA /* CheradesData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5E62752EDDE00F413DA /* CheradesData.xcdatamodeld */; };
+		E4C7A5EB2752F45400F413DA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5EA2752F45400F413DA /* Persistence.swift */; };
+		E4C7A5ED2752F47F00F413DA /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5EC2752F47F00F413DA /* NSManagedObjectContext.swift */; };
+		E4C7A5F02752F5C400F413DA /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5EF2752F5C400F413DA /* TeamsViewModel.swift */; };
+		E4C7A5F22752FA1100F413DA /* AddTeamStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A5F12752FA1100F413DA /* AddTeamStack.swift */; };
+		E4DA56092763675E00720744 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA56082763675E00720744 /* GameViewModel.swift */; };
+		E4E148982768E0C100AD2DD0 /* GameInterfaceTeamDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E148972768E0C100AD2DD0 /* GameInterfaceTeamDisplay.swift */; };
+		E4E1489A27696A9400AD2DD0 /* SuggestionDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1489927696A9400AD2DD0 /* SuggestionDisplay.swift */; };
+		E4E1489C276A217700AD2DD0 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1489B276A217700AD2DD0 /* WinnerView.swift */; };
+		E4E1489E276B849800AD2DD0 /* TimeOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1489D276B849800AD2DD0 /* TimeOutView.swift */; };
+		E4E148A0276B8E4700AD2DD0 /* TimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1489F276B8E4700AD2DD0 /* TimeSelectionView.swift */; };
+		E4E148A2276CC11F00AD2DD0 /* DeleteConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E148A1276CC11E00AD2DD0 /* DeleteConfirmationView.swift */; };
+		E4E148A4276D3C0C00AD2DD0 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E148A3276D3C0C00AD2DD0 /* InstructionsView.swift */; };
+		E4EF28362751896100D57491 /* TeamPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF28352751896100D57491 /* TeamPhoto.swift */; };
+		E4EF283B27518BE100D57491 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF283A27518BE100D57491 /* Images.swift */; };
+		E4EF283D27518C5100D57491 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF283C27518C5100D57491 /* Stars.swift */; };
+		E4EF283F27518C7400D57491 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF283E27518C7400D57491 /* TeamViewModel.swift */; };
+		E4EF2841275199E600D57491 /* AddTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF2840275199E600D57491 /* AddTeamView.swift */; };
+		E4EF28462751A03400D57491 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4EF28442751A03400D57491 /* PermanentMarker-Regular.ttf */; };
+		E4EF28472751A03400D57491 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4EF28452751A03400D57491 /* LICENSE.txt */; };
+		E4EF28492751A31F00D57491 /* AddTeamForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF28482751A31F00D57491 /* AddTeamForm.swift */; };
+		E4EF285427521ABC00D57491 /* Blur View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF285327521ABC00D57491 /* Blur View.swift */; };
+		E4EF285627521BE900D57491 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF285527521BE900D57491 /* HomeViewModel.swift */; };
+		E4EF285927521DAC00D57491 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF285827521DAC00D57491 /* Modifiers.swift */; };
+		E4EF285B275222B100D57491 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF285A275222B100D57491 /* HeaderView.swift */; };
+		E4EF671927590FF5007845E9 /* AddAnotherTeamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF671827590FF5007845E9 /* AddAnotherTeamButton.swift */; };
+		E4EF671B275A5481007845E9 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF671A275A5480007845E9 /* CameraButton.swift */; };
+		E4EF671E275A6A81007845E9 /* TeamDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF671D275A6A81007845E9 /* TeamDisplayView.swift */; };
+		E4EF6720275AC129007845E9 /* AddTeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF671F275AC128007845E9 /* AddTeamViewModel.swift */; };
+		E4F9777C275E552A00E78F1D /* SubmitNewTeamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F9777B275E552A00E78F1D /* SubmitNewTeamButton.swift */; };
+		E4F9777E275E5A1300E78F1D /* AddTeamTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F9777D275E5A1300E78F1D /* AddTeamTextField.swift */; };
+		E4F97782275E5E1000E78F1D /* TheatreMasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F97781275E5E1000E78F1D /* TheatreMasks.swift */; };
+		E4F97785275E609900E78F1D /* TeamsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F97784275E609900E78F1D /* TeamsScrollView.swift */; };
+		E4F97789275E61DA00E78F1D /* LonelyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F97788275E61DA00E78F1D /* LonelyView.swift */; };
+		E4F9778B275E623A00E78F1D /* FlashingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F9778A275E623A00E78F1D /* FlashingButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E447D48127689CAE0052FD9E /* CheradeStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CheradeStrings.strings; sourceTree = "<group>"; };
+		E447D48327689E080052FD9E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E447D4852768A01C0052FD9E /* LocalisationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalisationHelper.swift; sourceTree = "<group>"; };
+		E447D4872768A0770052FD9E /* CheradeBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheradeBundle.swift; sourceTree = "<group>"; };
+		E447D48A2768A9D20052FD9E /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		E447D48C2768ABE50052FD9E /* StartStopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopButton.swift; sourceTree = "<group>"; };
+		E447D48E2768ADA40052FD9E /* NextTeamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTeamButton.swift; sourceTree = "<group>"; };
+		E447D4902768B86D0052FD9E /* SuggestionsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsButton.swift; sourceTree = "<group>"; };
+		E45340AC27705CA500CE2E34 /* FiraSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Thin.ttf"; sourceTree = "<group>"; };
+		E45340AD27705CA500CE2E34 /* FiraSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E45340AE27705CA500CE2E34 /* FiraSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		E45340AF27705CA500CE2E34 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		E45340B027705CA500CE2E34 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E45340B127705CA500CE2E34 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		E45340B227705CA500CE2E34 /* FiraSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E45340B327705CA500CE2E34 /* FiraSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E45340B427705CA500CE2E34 /* FiraSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E45340B527705CA500CE2E34 /* FiraSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E45340B627705CA500CE2E34 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		E45340B727705CA500CE2E34 /* FiraSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Black.ttf"; sourceTree = "<group>"; };
+		E45340B827705CA500CE2E34 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E45340B927705CA500CE2E34 /* FiraSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E45340BA27705CA500CE2E34 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E45340BB27705CA500CE2E34 /* FiraSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E45340BC27705CA500CE2E34 /* FiraSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E45340BD27705CA500CE2E34 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		E45340BE27705CA500CE2E34 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
+		E461755127466DCE00DEE0D5 /* Cherades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cherades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E461755427466DCE00DEE0D5 /* CheradesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheradesApp.swift; sourceTree = "<group>"; };
+		E461755627466DCE00DEE0D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E461755827466DD200DEE0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E461755B27466DD200DEE0D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E461756227466E4800DEE0D5 /* TeamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCard.swift; sourceTree = "<group>"; };
+		E461AD88275F7C94002937DD /* SelectionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionText.swift; sourceTree = "<group>"; };
+		E461AD8B275F9BFC002937DD /* GameInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInterface.swift; sourceTree = "<group>"; };
+		E461AD8D275FA8C2002937DD /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		E461AD8F275FAE65002937DD /* RingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewModel.swift; sourceTree = "<group>"; };
+		E472425E27642FD40084863C /* Suggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestions.swift; sourceTree = "<group>"; };
+		E4C7A5E227527B6D00F413DA /* TeamPhotoPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPhotoPlaceHolder.swift; sourceTree = "<group>"; };
+		E4C7A5E42752DDF900F413DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E4C7A5E72752EDDE00F413DA /* CheradesData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheradesData.xcdatamodel; sourceTree = "<group>"; };
+		E4C7A5EA2752F45400F413DA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E4C7A5EC2752F47F00F413DA /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		E4C7A5EF2752F5C400F413DA /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		E4C7A5F12752FA1100F413DA /* AddTeamStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamStack.swift; sourceTree = "<group>"; };
+		E4DA56082763675E00720744 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		E4E148972768E0C100AD2DD0 /* GameInterfaceTeamDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInterfaceTeamDisplay.swift; sourceTree = "<group>"; };
+		E4E1489927696A9400AD2DD0 /* SuggestionDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionDisplay.swift; sourceTree = "<group>"; };
+		E4E1489B276A217700AD2DD0 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+		E4E1489D276B849800AD2DD0 /* TimeOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOutView.swift; sourceTree = "<group>"; };
+		E4E1489F276B8E4700AD2DD0 /* TimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionView.swift; sourceTree = "<group>"; };
+		E4E148A1276CC11E00AD2DD0 /* DeleteConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteConfirmationView.swift; sourceTree = "<group>"; };
+		E4E148A3276D3C0C00AD2DD0 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		E4EF28352751896100D57491 /* TeamPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPhoto.swift; sourceTree = "<group>"; };
+		E4EF283A27518BE100D57491 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		E4EF283C27518C5100D57491 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		E4EF283E27518C7400D57491 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		E4EF2840275199E600D57491 /* AddTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamView.swift; sourceTree = "<group>"; };
+		E4EF284227519F5200D57491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4EF28442751A03400D57491 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
+		E4EF28452751A03400D57491 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E4EF28482751A31F00D57491 /* AddTeamForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamForm.swift; sourceTree = "<group>"; };
+		E4EF285327521ABC00D57491 /* Blur View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Blur View.swift"; sourceTree = "<group>"; };
+		E4EF285527521BE900D57491 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E4EF285827521DAC00D57491 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		E4EF285A275222B100D57491 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E4EF671827590FF5007845E9 /* AddAnotherTeamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnotherTeamButton.swift; sourceTree = "<group>"; };
+		E4EF671A275A5480007845E9 /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		E4EF671D275A6A81007845E9 /* TeamDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDisplayView.swift; sourceTree = "<group>"; };
+		E4EF671F275AC128007845E9 /* AddTeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamViewModel.swift; sourceTree = "<group>"; };
+		E4F9777B275E552A00E78F1D /* SubmitNewTeamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitNewTeamButton.swift; sourceTree = "<group>"; };
+		E4F9777D275E5A1300E78F1D /* AddTeamTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamTextField.swift; sourceTree = "<group>"; };
+		E4F97781275E5E1000E78F1D /* TheatreMasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreMasks.swift; sourceTree = "<group>"; };
+		E4F97784275E609900E78F1D /* TeamsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsScrollView.swift; sourceTree = "<group>"; };
+		E4F97788275E61DA00E78F1D /* LonelyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyView.swift; sourceTree = "<group>"; };
+		E4F9778A275E623A00E78F1D /* FlashingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E461754E27466DCE00DEE0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E447D48027689C9C0052FD9E /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				E447D48127689CAE0052FD9E /* CheradeStrings.strings */,
+				E447D48327689E080052FD9E /* Strings.swift */,
+				E447D4852768A01C0052FD9E /* LocalisationHelper.swift */,
+				E447D4872768A0770052FD9E /* CheradeBundle.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		E447D4892768A9BD0052FD9E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E461AD8D275FA8C2002937DD /* RingView.swift */,
+				E4E1489D276B849800AD2DD0 /* TimeOutView.swift */,
+				E4E1489F276B8E4700AD2DD0 /* TimeSelectionView.swift */,
+				E4E1489B276A217700AD2DD0 /* WinnerView.swift */,
+				E447D48A2768A9D20052FD9E /* TeamsView.swift */,
+				E4E148A3276D3C0C00AD2DD0 /* InstructionsView.swift */,
+				E4E148972768E0C100AD2DD0 /* GameInterfaceTeamDisplay.swift */,
+				E447D48C2768ABE50052FD9E /* StartStopButton.swift */,
+				E447D48E2768ADA40052FD9E /* NextTeamButton.swift */,
+				E447D4902768B86D0052FD9E /* SuggestionsButton.swift */,
+				E4E1489927696A9400AD2DD0 /* SuggestionDisplay.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E45340AB27705CA500CE2E34 /* Fira_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				E45340AC27705CA500CE2E34 /* FiraSans-Thin.ttf */,
+				E45340AD27705CA500CE2E34 /* FiraSans-ExtraLightItalic.ttf */,
+				E45340AE27705CA500CE2E34 /* FiraSans-LightItalic.ttf */,
+				E45340AF27705CA500CE2E34 /* FiraSans-Medium.ttf */,
+				E45340B027705CA500CE2E34 /* FiraSans-BoldItalic.ttf */,
+				E45340B127705CA500CE2E34 /* FiraSans-Bold.ttf */,
+				E45340B227705CA500CE2E34 /* FiraSans-ExtraLight.ttf */,
+				E45340B327705CA500CE2E34 /* FiraSans-ThinItalic.ttf */,
+				E45340B427705CA500CE2E34 /* FiraSans-MediumItalic.ttf */,
+				E45340B527705CA500CE2E34 /* FiraSans-BlackItalic.ttf */,
+				E45340B627705CA500CE2E34 /* FiraSans-Light.ttf */,
+				E45340B727705CA500CE2E34 /* FiraSans-Black.ttf */,
+				E45340B827705CA500CE2E34 /* OFL.txt */,
+				E45340B927705CA500CE2E34 /* FiraSans-ExtraBold.ttf */,
+				E45340BA27705CA500CE2E34 /* FiraSans-SemiBold.ttf */,
+				E45340BB27705CA500CE2E34 /* FiraSans-SemiBoldItalic.ttf */,
+				E45340BC27705CA500CE2E34 /* FiraSans-ExtraBoldItalic.ttf */,
+				E45340BD27705CA500CE2E34 /* FiraSans-Regular.ttf */,
+				E45340BE27705CA500CE2E34 /* FiraSans-Italic.ttf */,
+			);
+			path = Fira_Sans;
+			sourceTree = "<group>";
+		};
+		E461754827466DCE00DEE0D5 = {
+			isa = PBXGroup;
+			children = (
+				E461755327466DCE00DEE0D5 /* Cherades */,
+				E461755227466DCE00DEE0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E461755227466DCE00DEE0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E461755127466DCE00DEE0D5 /* Cherades.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E461755327466DCE00DEE0D5 /* Cherades */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF28432751A03400D57491 /* Permanent_Marker */,
+				E45340AB27705CA500CE2E34 /* Fira_Sans */,
+				E47242572763AE700084863C /* Suggestions */,
+				E4C7A5E92752EE0300F413DA /* Core Data */,
+				E4EF284227519F5200D57491 /* Info.plist */,
+				E4EF283927518BCF00D57491 /* Resources */,
+				E4EF283727518B2700D57491 /* Scenes */,
+				E461755827466DD200DEE0D5 /* Assets.xcassets */,
+				E461755A27466DD200DEE0D5 /* Preview Content */,
+			);
+			path = Cherades;
+			sourceTree = "<group>";
+		};
+		E461755A27466DD200DEE0D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E461755B27466DD200DEE0D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E461AD8A275F9BAF002937DD /* Game Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E447D4892768A9BD0052FD9E /* Subviews */,
+				E461AD8B275F9BFC002937DD /* GameInterface.swift */,
+				E4DA56082763675E00720744 /* GameViewModel.swift */,
+				E461AD8F275FAE65002937DD /* RingViewModel.swift */,
+			);
+			path = "Game Interface";
+			sourceTree = "<group>";
+		};
+		E47242572763AE700084863C /* Suggestions */ = {
+			isa = PBXGroup;
+			children = (
+				E472425E27642FD40084863C /* Suggestions.swift */,
+			);
+			path = Suggestions;
+			sourceTree = "<group>";
+		};
+		E4C7A5E92752EE0300F413DA /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7A5EE2752F5AD00F413DA /* Teams data */,
+				E4C7A5E62752EDDE00F413DA /* CheradesData.xcdatamodeld */,
+				E4C7A5EA2752F45400F413DA /* Persistence.swift */,
+				E4C7A5EC2752F47F00F413DA /* NSManagedObjectContext.swift */,
+				E461755427466DCE00DEE0D5 /* CheradesApp.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		E4C7A5EE2752F5AD00F413DA /* Teams data */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7A5EF2752F5C400F413DA /* TeamsViewModel.swift */,
+			);
+			path = "Teams data";
+			sourceTree = "<group>";
+		};
+		E4EF283727518B2700D57491 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E461AD8A275F9BAF002937DD /* Game Interface */,
+				E4EF284F275219FB00D57491 /* Add Team */,
+				E4EF284E275219DF00D57491 /* Team Card */,
+				E4EF283827518B3000D57491 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E4EF283827518B3000D57491 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF66E92753755D007845E9 /* ViewModels */,
+				E4EF66E827537557007845E9 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E4EF283927518BCF00D57491 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E447D48027689C9C0052FD9E /* Strings */,
+				E4EF285727521D8600D57491 /* Modifiers */,
+				E4EF283A27518BE100D57491 /* Images.swift */,
+				E4EF285327521ABC00D57491 /* Blur View.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4EF28432751A03400D57491 /* Permanent_Marker */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF28442751A03400D57491 /* PermanentMarker-Regular.ttf */,
+				E4EF28452751A03400D57491 /* LICENSE.txt */,
+			);
+			path = Permanent_Marker;
+			sourceTree = "<group>";
+		};
+		E4EF284E275219DF00D57491 /* Team Card */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF285227521A3400D57491 /* View Models */,
+				E4EF285127521A2800D57491 /* Views */,
+				E461756227466E4800DEE0D5 /* TeamCard.swift */,
+			);
+			path = "Team Card";
+			sourceTree = "<group>";
+		};
+		E4EF284F275219FB00D57491 /* Add Team */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF66ED275375AF007845E9 /* ViewModels */,
+				E4EF66EC275375A7007845E9 /* Views */,
+				E4EF285027521A1300D57491 /* Camera */,
+			);
+			path = "Add Team";
+			sourceTree = "<group>";
+		};
+		E4EF285027521A1300D57491 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7A5E42752DDF900F413DA /* ImagePicker.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E4EF285127521A2800D57491 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F97780275E5D1A00E78F1D /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4EF285227521A3400D57491 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF283E27518C7400D57491 /* TeamViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E4EF285727521D8600D57491 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF285827521DAC00D57491 /* Modifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		E4EF66E827537557007845E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F97786275E616500E78F1D /* Get Started */,
+				E4EF671C275A6A62007845E9 /* Teams Display */,
+				E4EF66EB2753758A007845E9 /* Main */,
+				E4EF66EA27537567007845E9 /* Add Team */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4EF66E92753755D007845E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF285527521BE900D57491 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4EF66EA27537567007845E9 /* Add Team */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF671827590FF5007845E9 /* AddAnotherTeamButton.swift */,
+				E4EF2840275199E600D57491 /* AddTeamView.swift */,
+				E4F97787275E61A500E78F1D /* Subviews */,
+			);
+			path = "Add Team";
+			sourceTree = "<group>";
+		};
+		E4EF66EB2753758A007845E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E461755627466DCE00DEE0D5 /* ContentView.swift */,
+				E4EF285A275222B100D57491 /* HeaderView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E4EF66EC275375A7007845E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9777A275E551300E78F1D /* Subviews */,
+				E4EF28482751A31F00D57491 /* AddTeamForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4EF66ED275375AF007845E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF671F275AC128007845E9 /* AddTeamViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4EF671C275A6A62007845E9 /* Teams Display */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF671D275A6A81007845E9 /* TeamDisplayView.swift */,
+				E4F97783275E608B00E78F1D /* Subviews */,
+			);
+			path = "Teams Display";
+			sourceTree = "<group>";
+		};
+		E4F9777A275E551300E78F1D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9777B275E552A00E78F1D /* SubmitNewTeamButton.swift */,
+				E4C7A5E227527B6D00F413DA /* TeamPhotoPlaceHolder.swift */,
+				E4EF671A275A5480007845E9 /* CameraButton.swift */,
+				E4F9777D275E5A1300E78F1D /* AddTeamTextField.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E4F97780275E5D1A00E78F1D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF283C27518C5100D57491 /* Stars.swift */,
+				E4F97781275E5E1000E78F1D /* TheatreMasks.swift */,
+				E4EF28352751896100D57491 /* TeamPhoto.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E4F97783275E608B00E78F1D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E4F97784275E609900E78F1D /* TeamsScrollView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E4F97786275E616500E78F1D /* Get Started */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7A5F12752FA1100F413DA /* AddTeamStack.swift */,
+			);
+			path = "Get Started";
+			sourceTree = "<group>";
+		};
+		E4F97787275E61A500E78F1D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E4F97788275E61DA00E78F1D /* LonelyView.swift */,
+				E4E148A1276CC11E00AD2DD0 /* DeleteConfirmationView.swift */,
+				E461AD88275F7C94002937DD /* SelectionText.swift */,
+				E4F9778A275E623A00E78F1D /* FlashingButton.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E461755027466DCE00DEE0D5 /* Cherades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E461755F27466DD200DEE0D5 /* Build configuration list for PBXNativeTarget "Cherades" */;
+			buildPhases = (
+				E461754D27466DCE00DEE0D5 /* Sources */,
+				E461754E27466DCE00DEE0D5 /* Frameworks */,
+				E461754F27466DCE00DEE0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cherades;
+			productName = Cherades;
+			productReference = E461755127466DCE00DEE0D5 /* Cherades.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E461754927466DCE00DEE0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E461755027466DCE00DEE0D5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E461754C27466DCE00DEE0D5 /* Build configuration list for PBXProject "Cherades" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E461754827466DCE00DEE0D5;
+			productRefGroup = E461755227466DCE00DEE0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E461755027466DCE00DEE0D5 /* Cherades */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E461754F27466DCE00DEE0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45340C427705CA500CE2E34 /* FiraSans-Bold.ttf in Resources */,
+				E45340C027705CA500CE2E34 /* FiraSans-ExtraLightItalic.ttf in Resources */,
+				E45340CC27705CA500CE2E34 /* FiraSans-ExtraBold.ttf in Resources */,
+				E4EF28472751A03400D57491 /* LICENSE.txt in Resources */,
+				E461755C27466DD200DEE0D5 /* Preview Assets.xcassets in Resources */,
+				E4EF28462751A03400D57491 /* PermanentMarker-Regular.ttf in Resources */,
+				E45340C827705CA500CE2E34 /* FiraSans-BlackItalic.ttf in Resources */,
+				E45340CF27705CA500CE2E34 /* FiraSans-ExtraBoldItalic.ttf in Resources */,
+				E447D48227689CAE0052FD9E /* CheradeStrings.strings in Resources */,
+				E45340D127705CA500CE2E34 /* FiraSans-Italic.ttf in Resources */,
+				E45340CD27705CA500CE2E34 /* FiraSans-SemiBold.ttf in Resources */,
+				E45340CE27705CA500CE2E34 /* FiraSans-SemiBoldItalic.ttf in Resources */,
+				E45340CA27705CA500CE2E34 /* FiraSans-Black.ttf in Resources */,
+				E45340BF27705CA500CE2E34 /* FiraSans-Thin.ttf in Resources */,
+				E45340C527705CA500CE2E34 /* FiraSans-ExtraLight.ttf in Resources */,
+				E45340C127705CA500CE2E34 /* FiraSans-LightItalic.ttf in Resources */,
+				E45340C927705CA500CE2E34 /* FiraSans-Light.ttf in Resources */,
+				E45340CB27705CA500CE2E34 /* OFL.txt in Resources */,
+				E461755927466DD200DEE0D5 /* Assets.xcassets in Resources */,
+				E45340D027705CA500CE2E34 /* FiraSans-Regular.ttf in Resources */,
+				E45340C727705CA500CE2E34 /* FiraSans-MediumItalic.ttf in Resources */,
+				E45340C327705CA500CE2E34 /* FiraSans-BoldItalic.ttf in Resources */,
+				E45340C227705CA500CE2E34 /* FiraSans-Medium.ttf in Resources */,
+				E45340C627705CA500CE2E34 /* FiraSans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E461754D27466DCE00DEE0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E461755727466DCE00DEE0D5 /* ContentView.swift in Sources */,
+				E447D48D2768ABE50052FD9E /* StartStopButton.swift in Sources */,
+				E4EF283D27518C5100D57491 /* Stars.swift in Sources */,
+				E447D48427689E080052FD9E /* Strings.swift in Sources */,
+				E447D48B2768A9D20052FD9E /* TeamsView.swift in Sources */,
+				E4E148A2276CC11F00AD2DD0 /* DeleteConfirmationView.swift in Sources */,
+				E4C7A5EB2752F45400F413DA /* Persistence.swift in Sources */,
+				E4E1489E276B849800AD2DD0 /* TimeOutView.swift in Sources */,
+				E4EF285927521DAC00D57491 /* Modifiers.swift in Sources */,
+				E4F97785275E609900E78F1D /* TeamsScrollView.swift in Sources */,
+				E447D4862768A01C0052FD9E /* LocalisationHelper.swift in Sources */,
+				E4C7A5E52752DDF900F413DA /* ImagePicker.swift in Sources */,
+				E4E1489A27696A9400AD2DD0 /* SuggestionDisplay.swift in Sources */,
+				E4EF6720275AC129007845E9 /* AddTeamViewModel.swift in Sources */,
+				E4EF285427521ABC00D57491 /* Blur View.swift in Sources */,
+				E4C7A5F02752F5C400F413DA /* TeamsViewModel.swift in Sources */,
+				E472425F27642FD40084863C /* Suggestions.swift in Sources */,
+				E4F9778B275E623A00E78F1D /* FlashingButton.swift in Sources */,
+				E461AD90275FAE65002937DD /* RingViewModel.swift in Sources */,
+				E4E148A0276B8E4700AD2DD0 /* TimeSelectionView.swift in Sources */,
+				E4EF671927590FF5007845E9 /* AddAnotherTeamButton.swift in Sources */,
+				E4E148A4276D3C0C00AD2DD0 /* InstructionsView.swift in Sources */,
+				E4F97782275E5E1000E78F1D /* TheatreMasks.swift in Sources */,
+				E4DA56092763675E00720744 /* GameViewModel.swift in Sources */,
+				E461755527466DCE00DEE0D5 /* CheradesApp.swift in Sources */,
+				E4C7A5ED2752F47F00F413DA /* NSManagedObjectContext.swift in Sources */,
+				E4E148982768E0C100AD2DD0 /* GameInterfaceTeamDisplay.swift in Sources */,
+				E4F97789275E61DA00E78F1D /* LonelyView.swift in Sources */,
+				E4EF283B27518BE100D57491 /* Images.swift in Sources */,
+				E461756327466E4800DEE0D5 /* TeamCard.swift in Sources */,
+				E4EF671B275A5481007845E9 /* CameraButton.swift in Sources */,
+				E4F9777C275E552A00E78F1D /* SubmitNewTeamButton.swift in Sources */,
+				E4EF28362751896100D57491 /* TeamPhoto.swift in Sources */,
+				E447D48F2768ADA40052FD9E /* NextTeamButton.swift in Sources */,
+				E447D4912768B86D0052FD9E /* SuggestionsButton.swift in Sources */,
+				E4F9777E275E5A1300E78F1D /* AddTeamTextField.swift in Sources */,
+				E4C7A5E327527B6D00F413DA /* TeamPhotoPlaceHolder.swift in Sources */,
+				E4C7A5E82752EDDE00F413DA /* CheradesData.xcdatamodeld in Sources */,
+				E4EF285627521BE900D57491 /* HomeViewModel.swift in Sources */,
+				E447D4882768A0770052FD9E /* CheradeBundle.swift in Sources */,
+				E461AD89275F7C94002937DD /* SelectionText.swift in Sources */,
+				E461AD8C275F9BFC002937DD /* GameInterface.swift in Sources */,
+				E4C7A5F22752FA1100F413DA /* AddTeamStack.swift in Sources */,
+				E461AD8E275FA8C2002937DD /* RingView.swift in Sources */,
+				E4EF671E275A6A81007845E9 /* TeamDisplayView.swift in Sources */,
+				E4E1489C276A217700AD2DD0 /* WinnerView.swift in Sources */,
+				E4EF285B275222B100D57491 /* HeaderView.swift in Sources */,
+				E4EF28492751A31F00D57491 /* AddTeamForm.swift in Sources */,
+				E4EF283F27518C7400D57491 /* TeamViewModel.swift in Sources */,
+				E4EF2841275199E600D57491 /* AddTeamView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E461755D27466DD200DEE0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E461755E27466DD200DEE0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E461756027466DD200DEE0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cherades/Preview Content\"";
+				DEVELOPMENT_TEAM = X6KBK4WT9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cherades/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Charades: Beat The Clock";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To add your team photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To add your team photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davebage.CharadesBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E461756127466DD200DEE0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cherades/Preview Content\"";
+				DEVELOPMENT_TEAM = X6KBK4WT9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cherades/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Charades: Beat The Clock";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To add your team photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To add your team photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davebage.CharadesBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E461754C27466DCE00DEE0D5 /* Build configuration list for PBXProject "Cherades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E461755D27466DD200DEE0D5 /* Debug */,
+				E461755E27466DD200DEE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E461755F27466DD200DEE0D5 /* Build configuration list for PBXNativeTarget "Cherades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E461756027466DD200DEE0D5 /* Debug */,
+				E461756127466DD200DEE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4C7A5E62752EDDE00F413DA /* CheradesData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4C7A5E72752EDDE00F413DA /* CheradesData.xcdatamodel */,
+			);
+			currentVersion = E4C7A5E72752EDDE00F413DA /* CheradesData.xcdatamodel */;
+			path = CheradesData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E461754927466DCE00DEE0D5 /* Project object */;
+}

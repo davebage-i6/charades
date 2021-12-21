@@ -1,0 +1,26 @@
+/* 
+ CheradeStrings.strings
+  Cherades
+
+  Created by Dave Bage on 14/12/2021.
+  
+*/
+
+// MARK: - Selection text
+
+"selectiontext.needatleasttwo" = "You need at least 2 teams to play.\nAdd another team below.";
+"selectiontext.selecttwo" = "Select 2 teams below to play";
+"selectiontext.onemore" = "Select 1 more team below to play";
+"selectiontext.youreset" = "You're all set!";
+"selectiontext.letsgo" = "Let's go";
+
+// MARK: - Game interface
+
+"gameinterface.teamstitle" = "Teams";
+"gameinterface.timeremaining" = "Time remaining:";
+"gameinterface.go" = "Go";
+"gameinterface.stop" = "Stop";
+"gameinterface.nextteam" = "Next team";
+"gameinterface.nosuggestions" = "No suggestions... you think of one";
+"gameinterface.getsuggestion" = "Get suggestion";
+
