@@ -35,4 +35,6 @@ extension Image {
     static let trashCircle = Image(systemName: "trash.circle")
     static let close = Image(systemName: "xmark.circle")
     static let info = Image(systemName: "info.circle.fill")
+    static let cardFrame = Image("cardFrame")
+    static let skullsBackground = Image("skulls")
 }
