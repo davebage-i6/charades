@@ -25,7 +25,7 @@ struct ShadowModifier: ViewModifier {
                 .shadow(color: Color.black.opacity(0.3), radius: 1, x: 0, y: 1)
         case .icon:
             content
-                .shadow(color: Color.black.opacity(0.4), radius: 6, x: 0, y: 6)
+                .shadow(color: Color.black.opacity(0.4), radius: 2, x: 0, y: 2)
                 .shadow(color: Color.black.opacity(0.4), radius: 1, x: 0, y: 1)
         case .content:
             content
